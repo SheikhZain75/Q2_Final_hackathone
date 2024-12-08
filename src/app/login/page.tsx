@@ -27,7 +27,7 @@ export default function Login() {
         /> <br /> 
         <a href="#" className='text-[rgb(172,176,197)] mr-[180px]'>Forgot your password?</a><br />
         <button className='bg-[rgb(251,46,134)] text-white w-[350px] h-8 mt-5 mb-4 '>Sign In</button> <br />
-        <a href="#" className='text-[rgb(172,176,197)]'>Don't have an Account? Create account </a>
+        <a href="&apos" className='text-[rgb(172,176,197)]'>Dont have an Account? Create account </a>
         
       </div>
 
