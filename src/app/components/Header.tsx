@@ -3,22 +3,22 @@ import { IoSearch } from "react-icons/io5";
 
 export const Header = () => {
     return (
-        <div className='flex flex-col md:flex-row w-full   md:w-[1170px] mt-[30px] px-4 md:px-16 items-center max-w-screen-xl mx-auto  '>
+        <div className='flex flex-col md:flex-row w-full    md:w-[1170px] mb-[25px] mt-[23px] px-4 md:px-16 items-center max-w-screen-xl mx-auto  '>
             <h2 className='font-bold mr-16  font-inter text-[#000000] text-center md:text-left  text-3xl md:text-[24px]  md:w-auto'>
                 Hekto
             </h2>
             
-            <ul className='flex flex-col md:flex-row w-full md:w-auto justify-center md:justify-between gap-4 md:gap-[48px] text-[#000000]'>
-                <Link href={"/"} className='font-poppins text-[16px] text-[#FB2E86] font-bold text-center md:text-left w-[48px] h-[24px] '>
+            <ul className='flex flex-col md:flex-row w-full md:w-auto justify-center md:justify-between gap-4 md:gap-[57px] text-[#000000]'>
+                <Link href={"/"} className='font-poppins text-[16px] text-[#FB2E86] font-medium text-center md:text-left w-[48px] h-[24px] '>
                 <select name='' id='' className='  text-center mr-10 '>
                 <option value=""> Home</option>
             </select>
                 </Link>
-                <Link href={"/"} className='font-poppins text-[16px] font-bold text-center md:text-left w-[66px] h-[24px] '>Pages</Link>
-                <Link href={"/"} className='font-poppins text-[16px] font-bold text-center md:text-left w-[48px] h-[24px] '>Product</Link>
-                <Link href={"/"} className='font-poppins text-[16px] font-bold text-center md:text-left w-[61px] h-[24px] '>Blog</Link>
-                <Link href={"/"} className='font-poppins text-[16px] font-bold text-center md:text-left w-[61px] h-[24px] '>Shop</Link>
-                <Link href={"/"} className='font-poppins text-[16px] font-bold text-center md:text-left w-[61px] h-[24px] '>Contact</Link>
+                <Link href={"/"} className='font-poppins text-[16px] font-normal text-center md:text-left w[66px] h[24px] '>Pages</Link>
+                <Link href={"/"} className='font-poppins text-[16px] font-normal text-center md:text-left w[48px] h[24px] '>Product</Link>
+                <Link href={"/"} className='font-poppins text-[16px] font-normal text-center md:text-left w[61px] h[24px] '>Blog</Link>
+                <Link href={"/"} className='font-poppins text-[16px] font-normal text-center md:text-left w[61px] h[24px] '>Shop</Link>
+                <Link href={"/contactus"} className='font-poppins text-[16px] font-normal text-center md:text-left w[70px] h[24px] '>Contact Us</Link>
 
             </ul>
 
