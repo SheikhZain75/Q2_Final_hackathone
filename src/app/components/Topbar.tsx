@@ -16,8 +16,8 @@ const TopBar = () => {
         <div className="flex items-center justify-center gap-6 w-full sm:w-auto">
           {/* Email */}
           <a
-            href="mailto:mhhasanul@gmail.com"
-            className="flex items-center gap-2 hover:text-gray-200"
+            href="#"
+            className="flex items-center gap-2 ml-[50px] hover:text-gray-200 "
           >
             <FaEnvelope />
             <span>mhhasanul@gmail.com</span>
