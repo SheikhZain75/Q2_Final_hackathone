@@ -3,22 +3,24 @@ import { IoSearch } from "react-icons/io5";
 
 export const Header = () => {
     return (
-        <div className='flex h-[84px] py-[22px]'>
-            <h2 className='w-[98px] h-[34] font-bold text-3xl font-poppins ml-[140px]'>
+        <div className='flex justify-center h-[84px] py-[22px]'>
+            <h2 className='w-[98px] h-[34] font-bold text-3xl font-poppins'>
                 Hekto
             </h2>
             
-            <ul className='flex gap-10 ml-10 text-[rgb(13,14,67)] font-normal font-lato text-base pt-2'>
+            <ul className='flex gap-7 ml-10 text-[rgb(13,14,67)] font-normal font-lato text-base pt-2'>
                 <Link href={"/"} className=' '>
                 <select className='text-[rgb(251,46,134)]'>
                 <option value=""> Home</option>
                 </select>
                 </Link>
-                <Link href={"/pages"} className=' '>Pages</Link>
+                <Link href={"/about_us"} className=' '>About Us</Link>
+                {/* <Link href={"/pages"} className=' '>Pages</Link> */}
                 <Link href={"/product"} className=' '>Product</Link>
                 <Link href={"/blog"} className=' '>Blog</Link>
                 <Link href={"/shop"} className=' '>Shop</Link>
-                <Link href={"/contactus"} className=' '>Contact Us</Link>
+                <Link href={"/contact_us"} className=' '>Contact Us</Link>
+                <Link href={"/faq"} className=' '>FAQ</Link>
             </ul>
 
             <div>

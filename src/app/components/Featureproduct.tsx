@@ -9,7 +9,7 @@ const Fearureproduct = () => {
   return (
     <div>
       <div><h1 className='text-[rgb(26,11,91)] font-medium text-[42px] py-3 text-center'>Featured Products</h1></div>
-      <div className='flex h-[400px] w-[75%] ml-[45px]'>
+      <div className='flex justify-center '>
         <Image
         src={first}
         alt='Chair'

@@ -15,7 +15,7 @@ const Latestproducts = () => {
         <li className='text-[rgb(50,53,134)]'><Link href=''>Featured</Link></li>
         <li className='text-[rgb(50,53,134)]'><Link href=''>Special Offer</Link></li>
       </ul>
-      <div className='flex gap-9 ml-[100px]'>
+      <div className='flex justify-center gap-9'>
       <div className='w-[360px] h-[369px] bg-[rgb(247,247,247)] p-14 mt-5'>
         <Image 
         src={Lone}

@@ -10,7 +10,7 @@ import { MdMailOutline } from "react-icons/md";
 
 export default function TopBar (){
   return (
-    <div className='flex h-11 bg-[#7E33E0] text-white justify-around'>
+    <div className='flex h-11 bg-[#7E33E0] text-white justify-center gap-[298px]'>
    
       <div className='flex gap-[51px]'>
     

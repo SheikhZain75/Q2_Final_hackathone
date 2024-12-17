@@ -4,13 +4,13 @@ import topfooter from '@/app/public/topfooter.png'
 
 function Upperfooter() {
   return (
-    <div className='ml-[425px] mt-[20px] mb-[-20px] w-[500px]'>
+    <div className='flex justify-center mt-[72px] mb-16'>
       <Image
       src={topfooter}
       alt='img'
       width={500}
       height={500}
-      className=''
+      className='w-[700px] rounded bg-white'
       />
     </div>
   )

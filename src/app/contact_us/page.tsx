@@ -6,17 +6,19 @@ import contactus from '@/app/public/contactus.png'
 function page() {
   return (
     <div>
-      <div className='bg-[rgb(246,245,255)] h-[210px] '>
-      <div className='ml-[140px] pt-14'> 
-        <h1 className='text-[rgb(16,23,80)] font-bold text-4xl font-serif'>Contact Us</h1>
-        <div className='flex gap-1 mt-3'>
-          <a href="#" className='text-[rgb(16,16,16)] font-medium'> Home . Pages </a>
-          <p className='text-[rgb(251,46,134)] font-medium' > . Contact us</p>
+      <div className='flex justify-center bg-[rgb(246,245,255)] h-[210px]'>
+        <div>
+          <div className='ml-[-525px] pt-14'> 
+            <h1 className='text-[rgb(16,23,80)] font-bold text-4xl font-sans'>Contact Us</h1>
+            <div className='flex gap-1 mt-3'>
+              <a href="#" className='text-[rgb(16,16,16)] font-medium'> Home . Pages </a>
+              <p className='text-[rgb(251,46,134)] font-medium' > . Contact us</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-      <div className='flex'>
-        <div className='w-[550px] ml-[140px] mt-[80px]'>
+      <div className='flex justify-center gap-24'>
+        <div className='w-[550px] mt-[80px]'>
           <h1 className='text-[rgb(21,24,117)] font-bold text-3xl h-[50px]'>Information About us</h1>
           <p className='text-[rgb(138,143,185)]'>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -45,8 +47,8 @@ function page() {
         </div>
        </div>
       </div>
-      <div className='flex'>
-        <div className='ml-[140px] mt-[100px]'> 
+      <div className='flex justify-center mb-[150px]'>
+        <div className='mt-[100px]'> 
           <h1 className='text-[rgb(21,24,117)] font-bold text-3xl h-[50px]'>Get In Touch </h1>
           <p className='text-[rgb(138,143,185)] w-[550px]'>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
