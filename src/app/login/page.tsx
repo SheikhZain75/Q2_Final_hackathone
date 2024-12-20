@@ -16,19 +16,19 @@ export default function Login() {
         </div>
       </div>
         <div className='flex justify-center'>
-        <div className='w-[400px] h-[390px] border border-black text-center mt-[100px]'>
+        <div className='w-[400px] h-[390px] border border-gray-200 text-center mt-[100px] rounded'>
         <h1 className='font-bold text-xl mt-[30px]'>Login</h1>
         <p className='text-[rgb(172,176,197)]'>Please login using account detail below.</p>
         <input type="email" 
         placeholder='Email Address'
-        className='border border-solid w-[350px] h-9 mt-7 p-2'
+        className='border border-solid w-[350px] h-9 mt-7 p-2 rounded-md'
         />
         <input type="password" 
         placeholder='Password'
-        className='border border-solid w-[350px] h-9 p-2 mt-[26px] mb-3 '
+        className='border border-solid w-[350px] h-9 p-2 mt-[26px] mb-3 rounded-md '
         /> <br /> 
         <a href="#" className='text-[rgb(172,176,197)] mr-[180px]'>Forgot your password?</a><br />
-        <button className='bg-[rgb(251,46,134)] text-white w-[350px] h-8 mt-5 mb-4 '>Sign In</button> <br />
+        <button className='bg-[rgb(251,46,134)] text-white w-[350px] h-8 mt-5 mb-4 rounded-md '>Sign In</button> <br />
         <a href='&apos' className='text-[rgb(172,176,197)]'>Dont have an Account? Create account </a>
       </div>
         </div>

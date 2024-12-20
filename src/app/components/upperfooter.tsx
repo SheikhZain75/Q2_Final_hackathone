@@ -8,8 +8,8 @@ function Upperfooter() {
       <Image
       src={topfooter}
       alt='img'
-      width={500}
-      height={500}
+      width={600}
+      height={600}
       className='w-[700px] rounded bg-white'
       />
     </div>
