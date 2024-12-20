@@ -120,7 +120,7 @@ function Footer() {
       <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
         © 2024 Hekto —
         <a
-          href="https://twitter.com/knyttneve"
+          href="/"
           rel="noopener noreferrer"
           className="text-gray-600 ml-1"
           target="_blank"
@@ -130,17 +130,17 @@ function Footer() {
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <Link 
-      target='blank' href={"https://www.facebook.com/profile.php?id=61552506270420"} className="text-gray-900">
+      target='blank' href={"/"} className="text-gray-900">
       <FaFacebook className='text-3xl ' />
       </Link>
 
       <Link
-      target='blank' href={"https://vercel.com/farheenzehra99s-projects"} className="ml-3 text-gray-900">
+      target='blank' href={"/"} className="ml-3 text-gray-900">
       <IoLogoVercel className='text-3xl' />
       </Link>
       
       <Link
-      target='blank' href={"https://www.linkedin.com/in/syeda-farheen-zehra-648459268/"} className="ml-3 text-gray-900">
+      target='blank' href={"/"} className="ml-3 text-gray-900">
         <FaLinkedin className='text-3xl ' />
       </Link>
     </span>
